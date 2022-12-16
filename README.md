@@ -12,7 +12,7 @@ Os exercícios são:
 4. Faça uma função que receba dois parâmetros 'a' e 'b', dividindo a saída
 
 Para testar, crie uma PR, resolvendo os desafios, e aguarde a execução da ação para validar os exercícios. 
-Ela vai aparecer no seu página do seu PR, na parte inferior, onde você pode acessar os detalhes para verificar o processo ([Exemplo](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714103159/jobs/6297564244#step:5:19)).
+Ela vai aparecer no seu página do seu PR, na parte inferior, onde você pode acessar os detalhes para verificar o processo ([Exemplo com todos corretos](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714103159/jobs/6297564244#step:5:19) / [Exemplo com um exercício incorreto](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714096655/jobs/6297549598#step:5:19)).
 
 Considerações importantes:
 
