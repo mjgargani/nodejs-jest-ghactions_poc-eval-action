@@ -1,0 +1,13 @@
+name: Correção automatizada de exercícios JS
+run-name: Testes de código iniciados por @${{ github.actor }}
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  evaluation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Teste inicial da ação
+        run: echo "A ação foi acionada, conforme o esperado"
