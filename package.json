@@ -1,0 +1,22 @@
+{
+  "name": "dnc-eval-action-poc",
+  "version": "1.0.0",
+  "description": "Testes de correção automatizada",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --forceExit --verbose ./__tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjgargani/dnc-eval-action-poc.git"
+  },
+  "author": "Rodrigo G. Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjgargani/dnc-eval-action-poc/issues"
+  },
+  "homepage": "https://github.com/mjgargani/dnc-eval-action-poc#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}

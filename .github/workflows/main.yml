@@ -9,5 +9,12 @@ jobs:
   evaluation:
     runs-on: ubuntu-latest
     steps:
-      - name: Teste inicial da ação
-        run: echo "A ação foi acionada, conforme o esperado"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+     
+      - run: npm ci
+
+      - name: Inicia testes dos exercícios
+        run: npm test  
