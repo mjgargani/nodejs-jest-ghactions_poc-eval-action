@@ -21,4 +21,4 @@ Considerações importantes:
 - Existem várias formas de validar código, o contexto aqui, pensa em um teste de execução (então um problema pode ser resolvido de mais de uma forma), e não uma validação textual (o código está escrito certo/errado, baseado em um gabarito);
 - Existe um [custo de execução](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions) de ações no Github. Sugestões aqui:
   - Considerar um plano `GitHub Enterprise Cloud` para a instituição, caso esse metodo vá escalar de maneira interna (considerando que os desafios serão realizados dentro da própria organização);
-  - De outra forma, orientar estudantes a fazer um `fork` do template do dia, e executar os testes em seus próprios repositórios (cada conta tem até 2000 minutos por mês, para executar ações).
+  - De outra forma, orientar estudantes a fazer um `fork` do template do dia, e executar os testes em seus próprios repositórios (cada conta tem, **gratuitamente**, até 2000 minutos por mês, para executar ações).
