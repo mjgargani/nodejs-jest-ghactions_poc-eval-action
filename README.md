@@ -6,18 +6,18 @@ Aqui, levando em consideração 4 exercícios, que devem ser construídos dentro
 
 Os exercícios são:
 
-1. Faça uma função que receba dois parâmetros 'a' e 'b', somando a saída
-2. Faça uma função que receba dois parâmetros 'a' e 'b', subtraindo a saída
-3. Faça uma função que receba dois parâmetros 'a' e 'b', multiplicando a saída
-4. Faça uma função que receba dois parâmetros 'a' e 'b', dividindo a saída
+1. Faça uma função `sum` que receba dois parâmetros 'a' e 'b', somando a saída
+2. Faça uma função `sub` que receba dois parâmetros 'a' e 'b', subtraindo a saída
+3. Faça uma função `mul` que receba dois parâmetros 'a' e 'b', multiplicando a saída
+4. Faça uma função `div` que receba dois parâmetros 'a' e 'b', dividindo a saída
 
 Para testar, crie uma PR, resolvendo os desafios, e aguarde a execução da ação para validar os exercícios. 
 Ela vai aparecer no seu página do seu PR, na parte inferior, onde você pode acessar os detalhes para verificar o processo ([Exemplo com todos corretos](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714103159/jobs/6297564244#step:5:19) / [Exemplo com um exercício incorreto](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714096655/jobs/6297549598#step:5:19)).
 
 Considerações importantes:
 
-- Os exercícios aqui, estão utilizando JS puro (a avaliação ocorre através do motor do NodeJS);
-- É possível testar páginas HTML utilizando uma biblioteca de testes E2E, chamada [Puppeteer](https://github.com/puppeteer/puppeteer), porém, esses testes tem mais custo em termos de tempo de execução;
+- Os exercícios aqui, estão utilizando JS puro (a avaliação ocorre através do motor do NodeJS), mas é possível testar páginas HTML e CSS (se for o caso);
+- É possível testar páginas Web utilizando uma biblioteca de testes E2E, chamada [Puppeteer](https://github.com/puppeteer/puppeteer), porém, esses testes tem mais custo em termos de tempo de execução;
 - Existem várias formas de validar código, o contexto aqui, pensa em um teste de execução (então um problema pode ser resolvido de mais de uma forma), e não uma validação textual (o código está escrito certo/errado, baseado em um gabarito);
 - Existe um [custo de execução](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions) de ações no Github. Sugestões aqui:
   - Considerar um plano `GitHub Enterprise Cloud` para a instituição, caso esse metodo vá escalar de maneira interna (considerando que os desafios serão realizados dentro da própria organização);
