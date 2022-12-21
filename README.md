@@ -23,7 +23,7 @@ Os exercícios são:
   - Sem atualizar a página, deve ser possível identificar itens adicionados à lista, quando o botão de submissão é acionado.
 
 Para testar, crie uma PR, resolvendo os desafios, e aguarde a execução da ação para validar os exercícios. 
-Ela vai aparecer no seu página do seu PR, na parte inferior, onde você pode acessar os detalhes para verificar o processo ([Exemplo com todos corretos](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714103159/jobs/6297564244#step:5:19) / [Exemplo com um exercício incorreto](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714096655/jobs/6297549598#step:5:19)).
+Ela vai aparecer no seu página do seu PR, na parte inferior, onde você pode acessar os detalhes para verificar o processo ([Exemplo com todos corretos](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714103159/jobs/6297564244#step:5:19) / [Exemplo com um exercício incorreto](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3714096655/jobs/6297549598#step:5:19) / [Exemplo atualizado, incluindo o 5º exercício](https://github.com/mjgargani/dnc-eval-action-poc/actions/runs/3745900446/jobs/6360776354)).
 
 Considerações importantes:
 
