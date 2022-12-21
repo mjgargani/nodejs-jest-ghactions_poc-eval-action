@@ -12,7 +12,7 @@ describe("5. Faça uma lista de afazeres simples com html, css e javascript", ()
     browser = await puppeteer
       .launch({ 
         args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage', '--window-size=1270,720'], 
-        headless: false,
+        headless: true,
         waitForInitialPage: true 
       });
 
