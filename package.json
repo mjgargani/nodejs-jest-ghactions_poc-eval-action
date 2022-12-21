@@ -18,5 +18,9 @@
   "homepage": "https://github.com/mjgargani/dnc-eval-action-poc#readme",
   "dependencies": {
     "jest": "^29.3.1"
+  },
+  "devDependencies": {
+    "css": "^3.0.0",
+    "puppeteer": "^19.4.1"
   }
 }
