@@ -1,5 +1,7 @@
 # nodejs-jest-ghactions_poc-eval-action
 
+![thumbnail](./thumbnail.webp)
+
 > pt-br
 
 Esta é uma prova de conceito para avaliação automatizada de exercícios usando `NodeJS` + `Jest` + `Github Actions`.
